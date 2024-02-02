@@ -1,0 +1,15 @@
+.container {
+  margin: 1rem 0 3rem;
+  padding: 1rem;
+  border: 2px solid blue;
+}
+
+.form fieldset {
+  border: none;
+  margin: 1rem 0;
+}
+
+.form label {
+  display: inline-block;
+  padding-right: 1rem;
+}

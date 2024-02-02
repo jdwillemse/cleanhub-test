@@ -1,0 +1,23 @@
+.thumbnailContainer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.thumbnail {
+  object-fit: cover;
+}
+
+.title {
+  margin: 1rem 0 0.5rem;
+}
+
+.metadata dt {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.metadata dd {
+  display: inline-block;
+}
