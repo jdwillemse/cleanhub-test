@@ -63,6 +63,10 @@ export default function Hub({ data }: { data: Hub }) {
             <dt>Assignable:</dt>
             <dd>{data.assignable ? "true" : "false"}</dd>
           </div>
+          <div>
+            <dt>Part of portfolio:</dt>
+            <dd>{data.parentHubName ? "true" : "false"}</dd>
+          </div>
         </dl>
       </a>
     </li>
